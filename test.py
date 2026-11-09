@@ -9,7 +9,7 @@ import numpy as np
 
 from omegaconf import OmegaConf
 from utils import instantiate_from_config
-from calc_metrics import metrics_calc
+# from calc_metrics import metrics_calc
 
 from torchvision import transforms
 import albumentations as A
@@ -160,7 +160,7 @@ def test():
             gt_image.save(gt_output_path)
             # ==========================================================
 
-    metrics_calc(os.path.join(sys.path[0], test_img_path), output_path)
+    # metrics_calc(os.path.join(sys.path[0], test_img_path), output_path)
 
 if __name__ == "__main__":
     test()
