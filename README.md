@@ -25,6 +25,10 @@ Please refer to the reproducibility guide for detailed instructions on reproduci
 
 All experiments use a fixed random seed of **23** for training and testing.
 
+**Supplementary Materials:** [Download here](https://pan.quark.cn/s/7c46e5212c82)
+
+**Extraction Code:** `R9YX`
+
 ## Citation
 
 If you find this work useful, please consider citing our paper:
